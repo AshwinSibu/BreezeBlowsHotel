@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Breeze Blows Hotel & Resort</title>
+        <link rel="stylesheet" type="text/css" href="breezeblowshotel.css">
+    </head>
+    <body>
+
+        <div class="container">
+        <header id="main-header">
+                 <h1>BREEZE BLOWS HOTEL & RESORT</h1>
+        </header>
+    </div>
+        <nav id="navbar">
+            <div class="logo">
+                <img id="logo" src="images/BBHlogo.png">
+            </div>
+            <div class="container">
+                  <ul>
+                    <li><a href="#contact-test">Contact</a></li>
+                    <li><a href="#bookaroom-test">Book a Room</a></li>
+                    <li><a href="#services-test">Services</a></li>
+                    <li><a href="#about-test">About</a></li>
+                    <li><a href="#home-test">Home</a></li>
+                  </ul>
+            </div>
+        </nav>
+        
+        <div class="container">
+        <section id="home-test">
+            <h1>UNWIND IN CONTEMPORARY LODGINGS NEAR THE FOREST OF GREENFEILD</h1>
+            <h2>Home</h2>
+            <p>
+         Enjoy the peace and quiet of the rural environment and benefit from the close proximity to Greenfield.
+         At our 5-star Breeze Blows Hotel Greenfield Airport, MC. You can relax in one of our 282 comfortable and luxurious rooms. 
+         All our accommodations have satellite TV, a free wifi, a safe, as well as complimentary tea and coffee facilities or take a refreshing dip in our heated indoor pool.
+         Free parking for hotel residence and free valet parking for exculsive residence.
+
+            </p>
+        </section>
+        </div>
+
+        <div class="container">
+        <section id="about-test">
+            <h2>About</h2>
+            <div>
+            <h4>ROOMS & SUITS</h4>
+            <p>
+            When you wake up at Breeze Blows Hotel, open the curtains and take a look outside at the vast garden bathed in the morning sunlight, or the skyline spread out before you. 
+            Indulge yourself with breakfast in your room, an excellent  way to start your day no matter what the season.
+            <br>
+            Our rooms are truly superior, among the largest hotel rooms in Greenfield. 
+            Each eight types of guest room is designed to be a haven for relaxation and comfort, with luxurious furnishings and decor, sumptuous linens and toiletries, and the latest in electronics for your entertainment and convenience.
+            </p>
+            <img src="images/1k.png" atl="1 King Room">
+            <img src="images/2q.png" alt="1 Queen Room">
+            <img src="images/1ksbec.png" atl="Executive suite">
+            <img src="images/1ksbbs.png" atl="Bedroom suite">
+        </div>
+
+        <div>
+            <h4>BARS & ENTERTAINMENT</h4>
+            <p>
+            Breeze Blows hotel offers enticing dining and entertainment concepts for guests and locals alike to enjoy. 
+            Our unique options such as grab-and-go breakfast fare and sweets, thoughtful cocktails along with the exclusive lounge.
+            </p>
+            <img src="images/bar.png" alt="Bar">
+            <img src="images/Exeacc.png" alt="Executive louge access">
+        </div>
+
+            <div>
+            <h4>SWIMMING POOL, JACCUZZI & SAUNA</h4>
+            <p>
+            To escape the hot summer heat and to chillax, Breeze Blows provides a extra large sized community pool, a personal jaccuzzi (for exculsive guest ONLY) and a multiple saunas.
+            </p>
+            <img src="images/pool.png" alt="Pool">
+        </div>
+
+        </section>       
+        </div>
+
+        <div class="container">
+        <section id="services-test"class="services">
+            <h2>Services</h2>
+            <p>
+            <ul>
+            <li>282 comfortable and luxurious rooms across 30 floors.</li>
+            <li>Free parking for hotel residence and free valet parking for exculsive guest across 5 floors basement parking.</li>
+            <li>Modern looking Large size Lobby.</li>
+            <li>Extra Large sized community pool</li>
+            <li>24/7 Cleaning sevices</li>
+            <li>All public areas non-smoking</li>
+            <li>Local restaurant dinner delivery</li>
+            </ul>
+            </p>
+        </section>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="container">
+        <section id="bookaroom-test" >
+        <h2>Book a Room</h2>
+        <form method="POST">
+            
+        <div>
+                <label>Full Name</label>
+                <input type="text" name="full-name">
+            </div>
+            <br>
+            <div>
+                <label>Phone Number</label>
+                <input type="text" name="phoneno.">
+            </div>
+            <br>
+            <div>
+                <label>Email Address</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>No. of Guests</label>
+                <select name="no-guest">
+                    <option value="one">One</option>
+                    <option value="two">Two</option>
+                    <option value="three">Three</option>
+                    <option value="four">Four</option>
+                    <option value="five">Five</option>
+                    <option value="six">Six</option>
+                    <option value="seven">Seven</option>
+                    <option value="eight">Eight</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Guest Room</label>
+                <select name="no-guest">
+                    <option value="1k">1 King Room</option>
+                    <option value="2q">2 Queen Room</option>
+                    <option value="1khf">1 King + High Floor</option>
+                    <option value="2qhf">2 Queen + High Floor</option>
+                    <option value="1kelar">1 King + Executive lounge access room</option>
+                    <option value="2qelar">2 Queen + Executive lounge access room</option>
+                    <option value="1ksbes">1 King + Sofa Bed + Executive suite</option>
+                    <option value="1ksbbs">1 King + Sofa Bed + Bedroom suite</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Check-In Date</label>
+                <input type="date" name="date">
+            </div>
+            <br>
+            <div>
+                <label>Check-out Date</label>
+                <input type="date" name="date">
+            </div>
+            
+        </form>
+        <br>
+        <button onclick="alert('form submitted')">Confirm booking</button>
+        </section>
+        </div>
+        <br>
+        <div class="container">
+            <section id="contact-test" class="contact">
+                <h2>Contact</h2>
+                <p>
+                    <ul>
+                        <li>ADDRESS: 420 Street Greenfield Avenue park</li>
+                        <li>PHONE:+971453946926</li>
+                        <li>EMAIL: breezeblows@gmail.com</li>
+                    </ul>
+                </p>
+            </section>
+            </div>
+        <div style="margin-top: 200px;"></div>
+        <div class="container">
+        <footer id="copyrights">
+            <p>All Copyright &copy; 2021,Reserved to BreezeBlowsHotel
+            <br>
+            Ashwin.S Luke
+            </p>
+        </footer>
+        </div>
+    </body>
+</html>
